@@ -34,11 +34,28 @@ class LQTabBarController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK:- LQTabBarDelegate
+    func didTouchUp(PlusButton: UIButton) {
+        print("didTouchUpPlusButton")
+    }
+    
 // MARK:- Helper
     func addChildViewControllers()
     {
+        setChildController("精华", image: UIImage.init(named: "tabBar_essence_icon")!, selectedImage: UIImage.init(named: "tabBar_essence_click_icon")!, controller: EssenceController.init())
+        setChildController("最新", image: UIImage.init(named: "tabBar_new_icon")!, selectedImage: UIImage.init(named: "tabBar_new_click_icon")!, controller: NewestController.init())
+        
+        setChildController("关注", image: UIImage.init(named: "tabBar_friendTrends_icon")!, selectedImage: UIImage.init(named: "tabBar_friendTrends_click_icon")!, controller: AttentionController.init())
+        
+        setChildController("我", image: UIImage.init(named: "tabBar_me_icon")!, selectedImage: UIImage.init(named: "tabBar_me_click_icon")!, controller: MeController.init())
+    }
+    
+    //设置TabBar
+    func setTabBar() {
         let newTabBar = LQTabBar.init(frame: tabBar.bounds)
+        
         setValue(newTabBar, forKey: "tabBar")
+        
     }
 
     //添加一个子控制器

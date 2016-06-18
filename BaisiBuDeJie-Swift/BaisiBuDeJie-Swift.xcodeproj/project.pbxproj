@@ -16,6 +16,10 @@
 		39AD29FF1D13C2B20015C5A2 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD29FE1D13C2B20015C5A2 /* GuideView.swift */; };
 		39AD2A011D13C2C50015C5A2 /* GuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AD2A001D13C2C50015C5A2 /* GuideView.xib */; };
 		39C452651D1598BE00E9CB46 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C452641D1598BE00E9CB46 /* Common.swift */; };
+		39C452691D15AD5600E9CB46 /* EssenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C452681D15AD5600E9CB46 /* EssenceController.swift */; };
+		39C4526B1D15AE2300E9CB46 /* AttentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4526A1D15AE2300E9CB46 /* AttentionController.swift */; };
+		39C4526D1D15AE3C00E9CB46 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4526C1D15AE3C00E9CB46 /* MeController.swift */; };
+		39C4526F1D15AE4D00E9CB46 /* NewestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4526E1D15AE4D00E9CB46 /* NewestController.swift */; };
 		AE611100D4DBD21429A431B6 /* Pods_BaiSiBuDeJie_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1CE18049E628207F1A949A /* Pods_BaiSiBuDeJie_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,10 @@
 		39AD29FE1D13C2B20015C5A2 /* GuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		39AD2A001D13C2C50015C5A2 /* GuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideView.xib; sourceTree = "<group>"; };
 		39C452641D1598BE00E9CB46 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		39C452681D15AD5600E9CB46 /* EssenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssenceController.swift; sourceTree = "<group>"; };
+		39C4526A1D15AE2300E9CB46 /* AttentionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionController.swift; sourceTree = "<group>"; };
+		39C4526C1D15AE3C00E9CB46 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		39C4526E1D15AE4D00E9CB46 /* NewestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewestController.swift; sourceTree = "<group>"; };
 		535E07C77009E6B3E536B0E9 /* Pods-BaiSiBuDeJie-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie-Swift/Pods-BaiSiBuDeJie-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		94F356BE748B3B5C9A33A4D4 /* Pods-BaiSiBuDeJie-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie-Swift/Pods-BaiSiBuDeJie-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		EB1CE18049E628207F1A949A /* Pods_BaiSiBuDeJie_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiSiBuDeJie_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +144,7 @@
 		39AD29DF1D139D760015C5A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39C4526A1D15AE2300E9CB46 /* AttentionController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +184,7 @@
 		39AD29E41D139D760015C5A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39C452681D15AD5600E9CB46 /* EssenceController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +268,7 @@
 		39AD29EE1D139D760015C5A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39C4526C1D15AE3C00E9CB46 /* MeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +308,7 @@
 		39AD29F31D139D760015C5A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39C4526E1D15AE4D00E9CB46 /* NewestController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -499,11 +511,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C4526D1D15AE3C00E9CB46 /* MeController.swift in Sources */,
 				39AD29FB1D13A86A0015C5A2 /* LQTabBarController.swift in Sources */,
+				39C452691D15AD5600E9CB46 /* EssenceController.swift in Sources */,
+				39C4526F1D15AE4D00E9CB46 /* NewestController.swift in Sources */,
 				39AD29FD1D13B0490015C5A2 /* LQNavigationController.swift in Sources */,
 				39AD29F91D13A18F0015C5A2 /* LQTabBar.swift in Sources */,
 				39AD29BE1D139C460015C5A2 /* AppDelegate.swift in Sources */,
 				39C452651D1598BE00E9CB46 /* Common.swift in Sources */,
+				39C4526B1D15AE2300E9CB46 /* AttentionController.swift in Sources */,
 				39AD29FF1D13C2B20015C5A2 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +631,7 @@
 			baseConfigurationReference = 94F356BE748B3B5C9A33A4D4 /* Pods-BaiSiBuDeJie-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "BaiSiBuDeJie-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.BaiSiBuDeJie-Swift";
@@ -627,6 +644,7 @@
 			baseConfigurationReference = 535E07C77009E6B3E536B0E9 /* Pods-BaiSiBuDeJie-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "BaiSiBuDeJie-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ALVIN-YANG.BaiSiBuDeJie-Swift";
