@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.4.1)
+  - DACircularProgress (2.3.1)
+  - Kingfisher (2.4.1)
+  - MJRefresh (3.1.6)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - DACircularProgress
+  - Kingfisher
+  - MJRefresh
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
+  MJRefresh: 5c69f11e8bde0664e15326d2e61f61e103c6545f
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module Pods_BaiSiBuDeJie_Swift {
+  umbrella header "Pods-BaiSiBuDeJie-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
